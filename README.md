@@ -33,11 +33,17 @@ Project
 → Artifact Capture
 → AI Insight
 → Regression Intelligence
+```
 
 Instead of scattered tooling, ShadowQA centralizes the entire QA workflow into one premium SaaS experience.
 
-Platform Preview
-Current Product Flow
+---
+
+# Platform Preview
+
+## Current Product Flow
+
+```text
 Create Project
     ↓
 Launch Test Run
@@ -53,54 +59,92 @@ Artifact Stored
 AI Insight Generated
     ↓
 Results Displayed in UI
-Features
-Premium Frontend
-Animated SaaS landing page
-Real dashboard command center
-Dark glassmorphism UI
-Run detail pages
-Screenshot viewer
-AI insight visualization
-Real backend integration
-Responsive design system
-Backend Architecture
-Async FastAPI architecture
-PostgreSQL persistence
-SQLAlchemy 2.0 ORM
-Alembic migrations
-Artifact serving
-Run orchestration
-REST API execution layer
-Automation Engine
-Playwright browser automation
-Screenshot capture
-Real browser execution
-Artifact persistence
-Chromium automation workflows
-Tech Stack
-Frontend
+```
+
+---
+
+# Features
+
+## Premium Frontend
+
+- Animated SaaS landing page
+- Real dashboard command center
+- Dark glassmorphism UI
+- Run detail pages
+- Screenshot viewer
+- AI insight visualization
+- Real backend integration
+- Responsive design system
+
+---
+
+## Backend Architecture
+
+- Async FastAPI architecture
+- PostgreSQL persistence
+- SQLAlchemy 2.0 ORM
+- Alembic migrations
+- Artifact serving
+- Run orchestration
+- REST API execution layer
+
+---
+
+## Automation Engine
+
+- Playwright browser automation
+- Screenshot capture
+- Real browser execution
+- Artifact persistence
+- Chromium automation workflows
+
+---
+
+# Tech Stack
+
+## Frontend
+
+```text
 Next.js 16
 React
 TypeScript
 TailwindCSS
 Framer Motion
 Lucide React
-Backend
+```
+
+## Backend
+
+```text
 FastAPI
 SQLAlchemy 2.0
 PostgreSQL
 Alembic
 AsyncPG
 Pydantic
-Automation
+```
+
+## Automation
+
+```text
 Playwright
 Chromium
 Screenshot Artifacts
-Infrastructure
+```
+
+## Infrastructure
+
+```text
 Docker Compose
 WSL Ubuntu
 GitHub
-Architecture
+```
+
+---
+
+# Architecture
+
+```text
 ┌──────────────────────┐
 │     Next.js UI       │
 └──────────┬───────────┘
@@ -128,42 +172,77 @@ Architecture
 ┌──────────────────────┐
 │ AI Execution Insight │
 └──────────────────────┘
-Current Screens
-Landing Page
-Dashboard
-Projects
-New Test Run
-Run Details
-Screenshot Viewer
-Local Development
-Clone Repository
+```
+
+---
+
+# Current Screens
+
+- Landing Page
+- Dashboard
+- Projects
+- New Test Run
+- Run Details
+- Screenshot Viewer
+
+---
+
+# Local Development
+
+## Clone Repository
+
+```bash
 git clone https://github.com/Mehmetttzd/ShadowQA.git
 cd ShadowQA
-Backend Setup
+```
+
+---
+
+# Backend Setup
+
+```bash
 cd apps/api
 
 python3 -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
+```
 
 Run API:
 
+```bash
 uvicorn app.main:app --reload --port 8000
+```
 
 Backend:
 
+```text
 http://localhost:8000
-Frontend Setup
+```
+
+---
+
+# Frontend Setup
+
+```bash
 cd apps/web
 
 npm install
 npm run dev
+```
 
 Frontend:
 
+```text
 http://localhost:3000
-Playwright Runner Setup
+```
+
+---
+
+# Playwright Runner Setup
+
+```bash
 cd apps/runner
 
 python3 -m venv .venv
@@ -173,40 +252,68 @@ pip install playwright
 
 playwright install
 playwright install-deps
+```
 
 Run runner:
 
+```bash
 python runner.py
-Docker Services
+```
+
+---
+
+# Docker Services
 
 Start PostgreSQL:
 
+```bash
 docker compose up -d
-Future Roadmap
-AI Features
-AI-generated Playwright tests
-Root-cause analysis
-Intelligent failure summaries
-Autonomous execution planning
-QA Features
-Visual regression comparison
-Screenshot diffing
-Video recording
-Trace replay
-Multi-browser execution
-Parallel runners
-DevOps Features
-GitHub Actions integration
-CI/CD triggers
-Slack notifications
-Distributed workers
-SaaS Features
-Authentication
-Team workspaces
-Organizations
-Billing system
-Usage analytics
-Why ShadowQA Exists
+```
+
+---
+
+# Future Roadmap
+
+## AI Features
+
+- AI-generated Playwright tests
+- Root-cause analysis
+- Intelligent failure summaries
+- Autonomous execution planning
+
+---
+
+## QA Features
+
+- Visual regression comparison
+- Screenshot diffing
+- Video recording
+- Trace replay
+- Multi-browser execution
+- Parallel runners
+
+---
+
+## DevOps Features
+
+- GitHub Actions integration
+- CI/CD triggers
+- Slack notifications
+- Distributed workers
+
+---
+
+## SaaS Features
+
+- Authentication
+- Team workspaces
+- Organizations
+- Billing system
+- Usage analytics
+
+---
+
+# Why ShadowQA Exists
 
 Modern teams ship faster than ever.
 
@@ -214,23 +321,32 @@ But faster releases increase regression risk.
 
 ShadowQA explores the future intersection of:
 
-AI systems
-QA automation
-developer tooling
-visual intelligence
-SaaS engineering
+- AI systems
+- QA automation
+- developer tooling
+- visual intelligence
+- SaaS engineering
 
 The goal is not just running tests —
 but creating an intelligent execution layer for modern software delivery.
 
-Author
-Mohammad Yazdkhasti
+---
+
+# Author
+
+## Mohammad Yazdkhasti
 
 Software Engineer • AI/ML Developer • Fullstack Engineer
 
-Links
-GitHub: Mehmetttzd GitHub
-Repository: ShadowQA Repository
+### Links
+
+- GitHub: https://github.com/Mehmetttzd
+- Repository: https://github.com/Mehmetttzd/ShadowQA
+
+---
+
 <div align="center">
-ShadowQA — Autonomous Regression Intelligence
-</div> ```
+
+### ShadowQA — Autonomous Regression Intelligence
+
+</div>
